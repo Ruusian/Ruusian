@@ -1,117 +1,165 @@
 <div align="center">
 
 <!-- Animated Header Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=61AFEF&center=true&vcenter=true&width=600&height=70&lines=Hey+there!+I'm+Abhik+Sarkar+%F0%9F%90%A7;Android+Linux+Engineer;Autonomous+AI-Agentic+Developer;Systems+%26+Low-Level+Hacker;Creator+of+ASL+(Android+Subsystem+for+Linux)" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=61AFEF&center=true&vcenter=true&width=650&height=80&lines=Hey+there!+I'm+Abhik+Sarkar+%F0%9F%90%A7;Android+Linux+Subsystem+Engineer;Autonomous+AI-Agentic+Developer;Systems+%26+Low-Level+ARM64+Hacker;Creator+of+ASL+(Android+Subsystem+for+Linux)" alt="Typing SVG" />
 
 <p align="center">
-  <b>Android Linux Engineer</b> • <b>Autonomous AI-Agentic Developer</b> • <b>Systems & Low-Level Hacker</b>
+  <b>Android Linux Subsystem Engineer</b> • <b>Autonomous AI-Agentic Developer</b> • <b>Systems & ARM64 Low-Level Hacker</b>
 </p>
 
-<!-- Badges -->
+<!-- Dynamic Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-Ruusian-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ruusian)
-[![AI Workflow](https://img.shields.io/badge/Workflow-100%25%20AI%20Agentic%20Driven-7B2CBF?style=for-the-badge&logo=openai&logoColor=white)](#-ai-agentic-workflow--methodology)
+[![ASL Core Engine](https://img.shields.io/badge/ASL-v1.6_Production-00CED1?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Ruusian/ASL)
+[![AI Agentic Workflow](https://img.shields.io/badge/Workflow-100%25%20AI%20Agentic%20Driven-7B2CBF?style=for-the-badge&logo=anthropic&logoColor=white)](#-ai-agentic-engineering-methodology)
 [![Email](https://img.shields.io/badge/Email-abhiksarkar00%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhiksarkar00@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=Ruusian&style=for-the-badge&color=blueviolet)](https://github.com/Ruusian)
+[![Profile Views](https://komarev.com/ghpvc/?username=Ruusian&style=for-the-badge&color=8A2BE2)](https://github.com/Ruusian)
 
 ---
 
 </div>
 
-## 🚀 About Me
+## 🚀 Executive Summary & Domain Focus
 
-I specialize in pushing the boundaries of mobile hardware by turning Android smartphones into high-performance Linux workstations—without relying on cloud servers or external VPS instances.
+I specialize in pushing mobile hardware to its absolute limit—transforming stock Android smartphones into high-performance, hardware-accelerated Linux workstations and x86_64 gaming engines **without relying on cloud servers or external VPS instances**.
 
-- 🤖 **AI-Agentic Engineering:** I build, architect, and optimize software by leveraging autonomous AI coding agents at full power to maximize velocity and code precision.
-- 📱 **Focus Area:** Native Linux emulation, Chroot containerization, Android Kernel hooks, GPU acceleration on ARM64.
-- 🛠️ **Core Creation:** Creator of **ASL** (Android Subsystem for Linux), bringing WSL-like capabilities to Android devices.
-- ⚡ **Engineering Philosophy:** Systemless modifications, maximum performance efficiency, low-overhead systems programming.
-
----
-
-## 🤖 AI-Agentic Workflow & Methodology
-
-> *"Building software at the speed of thought by operating autonomous AI agents at maximum leverage."*
-
-- **Full-Power AI Collaboration:** 100% of my development, architecture, code auditing, and deployment workflows are executed using autonomous AI coding agents.
-- **Multi-Agent Systems Engineering:** Utilizing agentic pipelines, automated verification subagents, and deep context management to engineer complex low-level Linux and Android projects.
-- **High-Velocity Delivery:** Combining low-level kernel/systems domain expertise with high-throughput AI execution to rapidly ship robust, production-grade tools.
+- 🤖 **100% AI-Agentic Systems Engineering:** Every line of code, architectural design, kernel hook, and security audit in my projects is authored and verified through high-leverage autonomous AI coding agents.
+- 📱 **Android Low-Level & Linux Subsystems:** SELinux-safe chroot containerization, Android `/dev/kgsl-3d0` direct GPU passthrough, ARM64 kernel bypasses, and systemless Magisk/KernelSU integrations.
+- 🎮 **Mobile x86_64 Gaming Engine:** Box64 translation layer + Wine64 + DXVK + Mesa Turnip Vulkan for native PC gaming on ARM64 mobile SOCs.
+- 🌐 **Sub-Second Tunnel Infrastructure:** Multi-tier failover relays with custom TCP stack tuning for sub-second SSH and VNC remote access.
 
 ---
 
-## 🔥 Featured Projects
+## 🤖 AI-Agentic Engineering Methodology
 
-### 📱 [Android Subsystem for Linux (ASL)](https://github.com/Ruusian/ASL)
-> *Like WSL, but built natively for Android.*
+> *"Engineering software at the speed of thought by driving multi-agent AI autonomous workflows at 100% leverage."*
 
-A complete Linux subsystem management engine running natively on Android. Features SELinux-safe chroot management, Mesa Turnip Vulkan GPU passthrough, Box64 + Wine64 x86_64 gaming engine, XFCE desktop environment, automated remote access tunnels, and a GTK3 control center.
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                        AUTONOMOUS AI-AGENTIC DEVELOPMENT PIPELINE                      │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│  [Architect Prompt] ──► [Multi-Agent Swarm] ──► [Iterative Implementation]            │
+│                              │                         │                               │
+│                              ▼                         ▼                               │
+│                   [Context Pruning & Memory] ──► [Adversarial Verification Subagent]   │
+│                                                        │                               │
+│                                                        ▼                               │
+│                                            [Zero-Flaw Production Release]              │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 <details open>
-<summary><b>ASL Core Capabilities & Feature Matrix</b></summary>
+<summary><b>🔥 Key Pillars of My Agentic Engineering Process</b></summary>
 <br/>
 
-| Feature | Description | Status |
-| :--- | :--- | :---: |
-| 🛡️ **Chroot Container Isolation** | SELinux-safe environment mounting & lifecycle management | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🎮 **Mesa Turnip & Vulkan GPU** | Direct hardware GPU acceleration profiles for ARM64 | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🍷 **Box64 + Wine64 Gaming** | High-performance x86_64 PC binary translation layer | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🌐 **Modular Remote Bridges** | Multi-hop SSH, Serveo, Oracle VPS, Ngrok & LAN tunnels | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🖥️ **GTK3 Control Center** | Native ASL Hub graphical management interface | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🔄 **24/7 Autostart & Watchdog** | Self-healing daemon and persistent background uptime | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
-| 🚀 **TCP Engine Tuning** | Network stack optimization for double-SSH relay hops | ![Status](https://img.shields.io/badge/-Ready-brightgreen?style=flat) |
+1. **Multi-Agent Orchestration:** Deploying specialized subagents for fast codebase exploration, deep architectural planning, iterative execution, and adversarial verification.
+2. **Adversarial Verification Gateways:** Independent verification agents run real-time syntax checks, security fuzzing, regression tests, and boundary checks before any commit reaches main.
+3. **Infinite Context & Memory Management:** Utilizing persistent project-level memory indexes (`MEMORY.md`) and token-budgeted repo maps to maintain context integrity across massive codebases.
+4. **Hyper-Velocity Delivery:** Combining low-level ARM64/Linux domain authority with high-throughput AI execution to engineer production-grade systems in record time.
 
 </details>
 
+---
+
+## 🔥 Highlighted Flagship Project: ASL (Android Subsystem for Linux)
+
+<div align="center">
+
+### 📱 [**Android Subsystem for Linux (ASL)**](https://github.com/Ruusian/ASL)
+> *Like WSL for Windows, but built natively for Android ARM64.*
+
+[![Stars](https://img.shields.io/github/stars/Ruusian/ASL?style=social)](https://github.com/Ruusian/ASL)
+[![Forks](https://img.shields.io/github/forks/Ruusian/ASL?style=social)](https://github.com/Ruusian/ASL)
+[![License](https://img.shields.io/github/license/Ruusian/ASL?color=blue)](https://github.com/Ruusian/ASL)
+
+</div>
+
+```
+                     ┌──────────────────────────────────────────────┐
+                     │          ANDROID HARDWARE (ARM64)            │
+                     │  Adreno GPU 6xx/7xx  •  8-Core Kryo CPU      │
+                     └──────────────────────┬───────────────────────┘
+                                            │ /dev/kgsl-3d0 & evdev
+                     ┌──────────────────────▼───────────────────────┐
+                     │      ASL NATIVE CHROOT MANAGEMENT ENGINE     │
+                     │  ┌───────────────┐ ┌───────────────┐         │
+                     │  │ Mesa Turnip   │ │ Box64 + Wine  │         │
+                     │  │ Vulkan Driver │ │ Translation   │         │
+                     │  └───────┬───────┘ └───────┬───────┘         │
+                     │          └─────────┬───────┘                 │
+                     │                    ▼                         │
+                     │     Debian 13 Trixie ARM64 Container         │
+                     │     GTK3 Control Hub  •  XFCE4 Desktop       │
+                     └──────────────────────┬───────────────────────┘
+                                            │ Reverse SSH Tunnels
+                     ┌──────────────────────▼───────────────────────┐
+                     │     ALWAYS-ON REMOTE ACCESS BRIDGES          │
+                     │  Serveo  •  Ngrok  •  Oracle VPS  •  LAN     │
+                     └──────────────────────────────────────────────┘
+```
+
+<details open>
+<summary><b>⚡ ASL Feature Capabilities & Component Architecture</b></summary>
 <br/>
 
-### ⚡ [Systemless-Host-Termux-SU](https://github.com/Ruusian/Systemless-Host-Termux-SU)
-> Autonomous Linux kernel bridge for Termux with systemless root integration.
+| Component | Architecture & Highlights | Status |
+| :--- | :--- | :---: |
+| 🛡️ **Container Isolation** | SELinux-safe chroot mounting with automated fallback & dev-node isolation | ![Ready](https://img.shields.io/badge/-Production-brightgreen) |
+| 🎮 **Vulkan GPU Accel** | Mesa Turnip driver passthrough for Adreno 6xx/7xx GPUs with OpenGL Zink | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
+| 🍷 **x86_64 Gaming** | Box64 + Wine64 + DXVK binary translation layer with live MangoHud overlay | ![Ready](https://img.shields.io/badge/-Optimized-brightgreen) |
+| 🎛️ **ASL Hub Control** | Native GTK3 Graphical Management Interface for GPU, Gaming & Tunnels | ![Ready](https://img.shields.io/badge/-Production-brightgreen) |
+| 🌐 **Remote Tunneling** | 4-layer failover: Private Oracle VPS (sub-second) → Serveo → Ngrok → LAN | ![Ready](https://img.shields.io/badge/-Online-brightgreen) |
+| 🎮 **Bluetooth Gamepad** | Direct `/dev/input/event*` evdev passthrough with automatic permissions sync | ![Ready](https://img.shields.io/badge/-Ready-brightgreen) |
+| 🛡️ **Defensive Suite** | Containerized Nmap, Wireshark/TShark, Netcat, Socat with debconf pre-seeding | ![Ready](https://img.shields.io/badge/-Ready-brightgreen) |
 
-### 🕹️ [html5-games](https://github.com/Ruusian/html5-games)
-> Mobile game prototyping and performance testing environment on Android Termux.
+</details>
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Comprehensive Technology Stack
 
-### **Languages**
+<div align="center">
+
+### **Low-Level Systems & Kernel**
+![Linux](https://img.shields.io/badge/Linux_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Android](https://img.shields.io/badge/Android_Internals-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/ARM64_Architecture-0091BD?style=for-the-badge&logo=arm&logoColor=white)
+![Termux](https://img.shields.io/badge/Termux_Subsystem-000000?style=for-the-badge&logo=terminal&logoColor=white)
+![Chroot](https://img.shields.io/badge/Chroot_Isolation-A80030?style=for-the-badge&logo=debian&logoColor=white)
+
+### **Languages & Frameworks**
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-
-### **Systems, Kernel & Mobile Infrastructure**
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=terminal&logoColor=white)
-![Vulkan](https://img.shields.io/badge/Vulkan-AC1818?style=for-the-badge&logo=vulkan&logoColor=white)
 ![GTK3](https://img.shields.io/badge/GTK3-7FE5DA?style=for-the-badge&logo=gtk&logoColor=black)
-![XFCE](https://img.shields.io/badge/XFCE-2284F0?style=for-the-badge&logo=xfce&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### **GPU, Translation & Gaming**
+![Vulkan](https://img.shields.io/badge/Vulkan_API-AC1818?style=for-the-badge&logo=vulkan&logoColor=white)
+![Mesa Turnip](https://img.shields.io/badge/Mesa_Turnip-F57C00?style=for-the-badge)
+![Box64](https://img.shields.io/badge/Box64_Emulation-4CAF50?style=for-the-badge)
+![Wine64](https://img.shields.io/badge/Wine64-8B0000?style=for-the-badge&logo=wine&logoColor=white)
+![DXVK](https://img.shields.io/badge/DXVK-9C27B0?style=for-the-badge)
 
 ### **AI & Autonomous Engineering**
-![AI Agents](https://img.shields.io/badge/AI_Coding_Agents-7B2CBF?style=for-the-badge&logo=anthropic&logoColor=white)
-![OpenClaude](https://img.shields.io/badge/OpenClaude-000000?style=for-the-badge&logo=terminal&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Agentic_Workflows-00A86B?style=for-the-badge&logo=probot&logoColor=white)
+![AI Coding Agents](https://img.shields.io/badge/AI_Coding_Agents-7B2CBF?style=for-the-badge&logo=anthropic&logoColor=white)
+![OpenClaude Agent](https://img.shields.io/badge/OpenClaude_CLI-000000?style=for-the-badge&logo=terminal&logoColor=white)
+![Agentic Engineering](https://img.shields.io/badge/Agentic_Pipelines-00A86B?style=for-the-badge&logo=probot&logoColor=white)
 
-### **Networking, Tunnels & Security**
-![SSH](https://img.shields.io/badge/SSH-000000?style=for-the-badge&logo=openbsd&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
-![Ngrok](https://img.shields.io/badge/Ngrok-1E1E1E?style=for-the-badge&logo=ngrok&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+</div>
 
 ---
 
-## 📈 GitHub Metrics
+## 📈 GitHub Metrics & Statistics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ruusian&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ruusian's GitHub Stats" height="175" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruusian&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="175" />
+<img src="https://github-readme-stats.vercel.app/api?username=Ruusian&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Ruusian's GitHub Stats" height="180" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ruusian&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="180" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ruusian&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ruusian&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170" />
 
 </div>
 
@@ -119,6 +167,6 @@ A complete Linux subsystem management engine running natively on Android. Featur
 
 <div align="center">
 
-*Building the future of mobile Linux with full-power AI coding agents.* ⚡
+⚡ *Engineering low-level Android & Linux systems at the speed of thought with autonomous AI agents.* ⚡
 
 </div>
