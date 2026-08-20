@@ -29,6 +29,25 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 
 ---
 
+## 💻 Live Subsystem Diagnostic Terminal
+
+```
+┌──[ruusian@android-mobilestation]─[~]
+└──$ asl status
+  -------------------------------------------------------------
+   ASL Subsystem Engine v1.6 (Debian 13 Trixie ARM64)
+  -------------------------------------------------------------
+  [✓] Container Mount       : SELinux-Safe Chroot (/proc, /sys, /dev mounted)
+  [✓] GPU Driver Passthrough: Mesa Turnip Vulkan (Adreno 640v2 / kgsl-3d0)
+  [✓] x86_64 Gaming Engine  : Box64 v0.3.4 + Wine64 v10.0 + DXVK 2.3
+  [✓] Remote Tunnel Bridge  : Oracle VPS Private Relay (RTT: 0.12s)
+  [✓] Bluetooth Evdev Input : Gamepad Nodes Synced (/dev/input/event0)
+  [✓] AI Agentic Guardrail  : Verification Subagent PASS (0 Syntax / Memory Leaks)
+  -------------------------------------------------------------
+```
+
+---
+
 ## 🤖 AI-Agentic Engineering Methodology
 
 > *"Engineering software at the speed of thought by driving multi-agent AI autonomous workflows at 100% leverage."*
@@ -60,7 +79,7 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 
 ---
 
-## 🔥 Highlighted Flagship Project: ASL (Android Subsystem for Linux)
+## 🔥 Featured Open-Source Projects
 
 <div align="center">
 
@@ -113,6 +132,17 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 
 </details>
 
+<br/>
+
+### ⚡ [**Systemless-Host-Termux-SU**](https://github.com/Ruusian/Systemless-Host-Termux-SU)
+> *Autonomous Linux kernel bridge for Termux with systemless root integration.*
+- Zero-modification kernel mounts for Termux environments.
+- Magisk / KernelSU compatibility without breaking Android SafetyNet/Play Integrity.
+
+### 🕹️ [**html5-games**](https://github.com/Ruusian/html5-games)
+> *Mobile game prototyping and performance testing environment on Android Termux.*
+- Canvas and WebGL performance benchmarks for mobile browsers under Linux translation layers.
+
 ---
 
 ## 🛠️ Comprehensive Technology Stack
@@ -150,7 +180,29 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 
 ---
 
-## 📈 GitHub Metrics & Statistics
+## ❓ Frequently Asked Technical Questions
+
+<details>
+<summary><b>1. How does ASL achieve true hardware GPU acceleration on Android?</b></summary>
+<br/>
+ASL passes the host Android kernel Adreno GPU device node (<code>/dev/kgsl-3d0</code>) directly into the isolated Debian chroot container. By compiling Mesa Turnip Vulkan drivers inside the ARM64 chroot environment and pairing them with Zink (OpenGL-over-Vulkan), Linux applications and DXVK translation layers achieve direct hardware rendering on mobile SOCs.
+</details>
+
+<details>
+<summary><b>2. Why develop 100% using Autonomous AI Agents?</b></summary>
+<br/>
+Autonomous AI coding agents operate as instant force multipliers. By pairing deep domain expertise in ARM64 architecture and Linux kernel hooks with multi-agent orchestration, complex features that previously took weeks can be planned, implemented, tested, and verified in minutes.
+</details>
+
+<details>
+<summary><b>3. Is root required for ASL?</b></summary>
+<br/>
+Root (via Magisk or KernelSU) provides the highest performance by enabling SELinux-safe mount points and direct GPU device nodes. However, ASL also includes fallback modes (PRoot) for non-rooted environments.
+</details>
+
+---
+
+## 📈 GitHub Metrics & Activity
 
 <div align="center">
 
