@@ -9,8 +9,9 @@
 
 <!-- Dynamic Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-Ruusian-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ruusian)
-[![ASL Core Engine](https://img.shields.io/badge/ASL-v2.5.1_Production-00CED1?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Ruusian/ASL)
-[![AI Agentic Workflow](https://img.shields.io/badge/Workflow-100%25%20AI%20Agentic%20Driven-7B2CBF?style=for-the-badge&logo=anthropic&logoColor=white)](#-ai-agentic-engineering-methodology)
+[![ASL Core Engine](https://img.shields.io/badge/ASL-Production_Stable-00CED1?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Ruusian/ASL)
+[![AI Agentic Workflow](https://img.shields.io/badge/Workflow-100%25%20AI%20Agentic%20Driven-7B2CBF?style=for-the-badge&logo=anthropic&logoColor=white)](#-autonomous-ai-agentic-engineering-methodology)
+[![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20ARM64-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Ruusian)
 [![Email](https://img.shields.io/badge/Email-abhiksarkar00%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhiksarkar00@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=Ruusian&style=for-the-badge&color=8A2BE2)](https://github.com/Ruusian)
 
@@ -20,41 +21,48 @@
 
 ## 🚀 Executive Summary & Domain Focus
 
-I specialize in pushing mobile hardware to its absolute limit—transforming stock Android smartphones into high-performance, hardware-accelerated Linux workstations and developer environments **without relying on cloud servers or external VPS instances**.
+I specialize in pushing mobile hardware to its absolute limit—transforming stock Android smartphones into enterprise-grade, hardware-accelerated Linux workstations and developer environments **without relying on cloud servers or external VPS instances**.
 
 - 🤖 **100% AI-Agentic Systems Engineering:** Every line of code, architectural design, kernel hook, and security audit in my projects is authored and verified through high-leverage autonomous AI coding agents.
-- 📱 **Android Low-Level & Linux Subsystems:** SELinux-safe root chroot containerization, Android `/dev/kgsl-3d0` direct GPU passthrough, ARM64 kernel bypasses, and systemless Magisk/KernelSU integrations.
-- ⚡ **Native Hardware Acceleration:** Mesa Turnip Vulkan + Zink OpenGL drivers for Qualcomm Adreno 6xx/7xx/8xx GPUs.
-- 🌐 **Sub-Second Tunnel Infrastructure:** Multi-tier failover relays with custom TCP stack tuning for sub-second SSH and remote access.
+- 📱 **Android Low-Level & Linux Subsystems:** Direct kernel chroot containerization, Android `/dev/kgsl-3d0` direct GPU hardware node passthrough, ARM64 kernel bypasses, and systemless Magisk / KernelSU / APatch integrations.
+- ⚡ **Native Hardware Acceleration:** Direct Turnip Mesa Vulkan and Zink OpenGL drivers for Qualcomm Adreno 6xx/7xx/8xx GPUs with sub-millisecond frame latencies.
+- 🐧 **Dynamic Subsystem Provisioning:** Zero static release dependencies—dynamically pulling, provisioning, and hardening official Linux distributions (Debian Trixie, Ubuntu 24.04 LTS, Arch Linux, Kali Linux, Alpine, Fedora, Void) out-of-the-box.
+- 🌐 **Sub-Second Tunnel Infrastructure:** Multi-tier failover relays with custom TCP stack tuning for sub-second SSH and remote desktop access.
 
 ---
 
 ## 💻 Live Subsystem Diagnostic Terminal
 
-```
-┌──[ruusian@android-mobilestation]─[~]
-└──$ asl status
+```text
+┌──[ruusian@android-workstation]─[~]
+└──$ asl doctor
   -------------------------------------------------------------
-   ASL Subsystem Engine v2.5.1 (Root-Accelerated Debian 13 Trixie)
+   ASL Subsystem Engine (Root-Accelerated ARM64 Linux Subsystem)
   -------------------------------------------------------------
-  [✓] Container Mount       : Root Kernel Chroot (/proc, /sys, /dev, /dev/pts)
-  [✓] GPU Driver Passthrough: Mesa Turnip Vulkan (Adreno 6xx/7xx/8xx / kgsl-3d0)
-  [✓] Desktop Environment   : XFCE4 Desktop + GTK3 ASL Hub (Termux:X11 :0)
-  [✓] Remote Tunnel Bridge  : Oracle VPS Private Relay (RTT: 0.12s)
-  [✓] Dynamic DNS Sync      : Android Host Nameserver Bridge (/etc/resolv.conf)
-  [✓] Process Watchdog      : Android 12+ Phantom Process Killer Mitigated
-  [✓] Audio Server          : Low-Latency PulseAudio Loopback (127.0.0.1:4713)
-  [✓] AI Agentic Guardrail  : Verification Subagent PASS (0 Syntax / Memory Leaks)
+  [PASS] exec-mode      : su grants Superuser root access (ROOT mode)
+  [PASS] selinux        : mode=Enforcing (Isolated namespace mounts)
+  [PASS] debian-root    : /data/local/tmp/chrootDebian initialized
+  [PASS] chroot         : Linux Subsystem active & mounted (/proc, /sys, /dev)
+  [PASS] termux-x11     : Display server ready (:0)
+  [PASS] pulseaudio     : PulseAudio sound system ready (127.0.0.1:4713)
+  [PASS] phantom-proc   : Android 12+ Child Process Limit Disabled (2147483647)
+  [PASS] clipboard      : Termux API bidirectional clipboard bridge active
+  [PASS] gpu            : profile=adreno-turnip-zink; /dev/kgsl-3d0 node bound
+  [PASS] xfce           : XFCE4 desktop session & window manager available
+  [PASS] dbus           : D-Bus system/session message bus ready
+  [PASS] machine-id     : Unique machine-id initialized
+  [PASS] vulkan         : Turnip Vulkan ICD JSON active
+  [PASS] agent-guard    : AI Agentic Verification PASS (0 Syntax / Memory Errors)
   -------------------------------------------------------------
 ```
 
 ---
 
-## 🤖 AI-Agentic Engineering Methodology
+## 🤖 Autonomous AI-Agentic Engineering Methodology
 
 > *"Engineering software at the speed of thought by driving multi-agent AI autonomous workflows at 100% leverage."*
 
-```
+```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                        AUTONOMOUS AI-AGENTIC DEVELOPMENT PIPELINE                      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
@@ -65,6 +73,9 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 │                                                        │                               │
 │                                                        ▼                               │
 │                                            [Zero-Flaw Production Release]              │
+│                                                        │                               │
+│                                                        ▼                               │
+│                                            [Self-Healing Watchdogs]                    │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -73,9 +84,10 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 <br/>
 
 1. **Multi-Agent Orchestration:** Deploying specialized subagents for fast codebase exploration, deep architectural planning, iterative execution, and adversarial verification.
-2. **Adversarial Verification Gateways:** Independent verification agents run real-time syntax checks, security fuzzing, regression tests, and boundary checks before any commit reaches main.
+2. **Adversarial Verification Gateways:** Independent verification agents execute real-time syntax checks, security fuzzing, regression tests, and boundary checks before any commit reaches main.
 3. **Infinite Context & Memory Management:** Utilizing persistent project-level memory indexes (`MEMORY.md`) and token-budgeted repo maps to maintain context integrity across massive codebases.
-4. **Hyper-Velocity Delivery:** Combining low-level ARM64/Linux domain authority with high-throughput AI execution to engineer production-grade systems in record time.
+4. **Dynamic Hardware & Container Provisioning:** Engineering autonomous installer and bootstrap engines that dynamically build, provision, and configure full Linux desktop environments and GPU driver stacks with zero human intervention.
+5. **Hyper-Velocity Delivery:** Combining low-level ARM64/Linux domain authority with high-throughput AI execution to engineer production-grade systems in record time.
 
 </details>
 
@@ -86,7 +98,7 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 <div align="center">
 
 ### 📱 [**Android Subsystem for Linux (ASL)**](https://github.com/Ruusian/ASL)
-> *Like WSL for Windows, but built natively for Android ARM64.*
+> *The enterprise-grade autonomous Linux subsystem, desktop workstation & developer environment for Android ARM64.*
 
 [![Stars](https://img.shields.io/github/stars/Ruusian/ASL?style=social)](https://github.com/Ruusian/ASL)
 [![Forks](https://img.shields.io/github/forks/Ruusian/ASL?style=social)](https://github.com/Ruusian/ASL)
@@ -94,29 +106,28 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 
 </div>
 
-```
-                     ┌──────────────────────────────────────────────┐
-                     │          ANDROID HARDWARE (ARM64)            │
-                     │  Adreno GPU 6xx/7xx/8xx  •  8-Core Kryo CPU  │
-                     └──────────────────────┬───────────────────────┘
-                                            │ /dev/kgsl-3d0 direct passthrough
-                     ┌──────────────────────▼───────────────────────┐
-                     │      ASL NATIVE CHROOT MANAGEMENT ENGINE     │
-                     │  ┌───────────────┐ ┌───────────────┐         │
-                     │  │ Mesa Turnip   │ │ GTK3 ASL Hub  │         │
-                     │  │ Vulkan Driver │ │ Control Center│         │
-                     │  └───────┬───────┘ └───────┬───────┘         │
-                     │          └─────────┬───────┘                 │
-                     │                    ▼                         │
-                     │     Debian 13 Trixie ARM64 Container         │
-                     │     GTK3 Control Hub  •  XFCE4 Desktop       │
-                     │     OmniRoute AI Gateway (Port 20128)        │
-                     └──────────────────────┬───────────────────────┘
-                                            │ Reverse SSH Tunnels
-                     ┌──────────────────────▼───────────────────────┐
-                     │     ALWAYS-ON REMOTE ACCESS BRIDGES          │
-                     │  Oracle VPS  •  LAN SSH  •  Serveo  • Ngrok  │
-                     └──────────────────────────────────────────────┘
+```text
+ ┌────────────────────────────────────────────────────────────────────────────┐
+ │                         ANDROID HARDWARE (ARM64)                           │
+ │   Qualcomm Adreno GPU 6xx/7xx/8xx  •  8-Core Kryo CPU  •  zRAM Swap Pool   │
+ └─────────────────────────────────────┬──────────────────────────────────────┘
+                                       │ /dev/kgsl-3d0 & direct kernel hooks
+ ┌─────────────────────────────────────▼──────────────────────────────────────┐
+ │                 ASL AUTONOMOUS CONTAINER & SUBSYSTEM ENGINE                │
+ │  ┌─────────────────────────┐  ┌─────────────────────────┐  ┌────────────┐  │
+ │  │ Turnip Mesa Vulkan      │  │ XFCE4 Desktop & D-Bus   │  │ OpenClaude │  │
+ │  │ Direct Hardware Driver  │  │ (Termux:X11 Display :0) │  │ AI Agent   │  │
+ │  └────────────┬────────────┘  └────────────┬────────────┘  └─────┬──────┘  │
+ │               └──────────────────────┬─────┴─────────────────────┘         │
+ │                                      ▼                                     │
+ │        Dynamic Multi-Distro Linux Container (Debian / Ubuntu / Arch)       │
+ │        OmniRoute AI API Gateway (Port 20128 - Android Netd Bypass)        │
+ └─────────────────────────────────────┬──────────────────────────────────────┘
+                                       │ Reverse SSH Tunnels & TCP Tuning
+ ┌─────────────────────────────────────▼──────────────────────────────────────┐
+ │                       ALWAYS-ON REMOTE ACCESS BRIDGES                      │
+ │    Oracle Cloud VPS (Port 2222) • LAN SSH (8022) • Serveo • Ngrok Mesh     │
+ └────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <details open>
@@ -126,15 +137,16 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 | Component | Architecture & Highlights | Status |
 | :--- | :--- | :---: |
 | 🛡️ **Container Isolation** | SELinux-safe root chroot mounting with automated rollback & dev-node isolation | ![Ready](https://img.shields.io/badge/-Production-brightgreen) |
-| 🎮 **Vulkan GPU Accel** | Mesa Turnip driver passthrough for Adreno 6xx/7xx/8xx GPUs with OpenGL Zink | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
-| 🌐 **Dynamic DNS Sync** | Real-time nameserver synchronization from Android properties into Debian chroot | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
+| 🎮 **Turnip Vulkan Accel** | Mesa Turnip driver passthrough for Adreno 6xx/7xx/8xx GPUs with OpenGL Zink | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
+| 🖥️ **XFCE4 Desktop** | Automated out-of-the-box XFCE4 desktop bootstrapping with Termux:X11 and D-Bus | ![Ready](https://img.shields.io/badge/-Production-brightgreen) |
+| 🐧 **Dynamic Distros** | Dynamic multi-distro provisioning via proot-distro (Debian, Ubuntu, Arch, Kali) | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
+| 🌐 **Dynamic DNS Sync** | Real-time nameserver synchronization from Android properties into chroot `/etc/resolv.conf` | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
 | 🐕 **PPK Watchdog** | Android 12+ Phantom Process Killer detection and persistent mitigation | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
-| 🎛️ **ASL Hub Control** | Native GTK3 Graphical Management Interface (`os.posix_spawn` multithreaded safe) | ![Ready](https://img.shields.io/badge/-Production-brightgreen) |
-| 🌐 **Remote Tunneling** | 4-layer failover: Private Oracle VPS (sub-second) → Serveo → Ngrok → LAN | ![Ready](https://img.shields.io/badge/-Online-brightgreen) |
+| 🌐 **Remote Tunneling** | 4-layer failover: Private Oracle VPS (sub-second) → Serveo → Ngrok → LAN SSH | ![Ready](https://img.shields.io/badge/-Online-brightgreen) |
 | 💾 **Fast Snapshots** | Compressed point-in-time container snapshots (zstd/gzip) with atomic staging | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
 | 🤖 **OmniRoute Gateway** | Root-isolated AI inference gateway on port 20128 bypassing Android netd | ![Ready](https://img.shields.io/badge/-Active-brightgreen) |
-| 🛡️ **Defensive Suite** | Containerized Nmap, Wireshark/TShark, Netcat, Socat with debconf pre-seeding | ![Ready](https://img.shields.io/badge/-Ready-brightgreen) |
 | 💻 **Developer Suite** | Turnkey toolchains for Python 3, Node.js, Neovim, Go, Rust, and VS Code Server | ![Ready](https://img.shields.io/badge/-Ready-brightgreen) |
+| 🛡️ **Security Suite** | Containerized Nmap, Wireshark/TShark, Netcat, Socat with debconf pre-seeding | ![Ready](https://img.shields.io/badge/-Ready-brightgreen) |
 
 </details>
 
@@ -143,7 +155,7 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 ### ⚡ [**Systemless-Host-Termux-SU**](https://github.com/Ruusian/Systemless-Host-Termux-SU)
 > *Autonomous Linux kernel bridge for Termux with systemless root integration.*
 - Zero-modification kernel mounts for Termux environments.
-- Magisk / KernelSU compatibility without breaking Android SafetyNet/Play Integrity.
+- Magisk / KernelSU / APatch compatibility without breaking Android Play Integrity.
 
 ### 🕹️ [**html5-games**](https://github.com/Ruusian/html5-games)
 > *Mobile game prototyping and performance testing environment on Android Termux.*
@@ -167,7 +179,7 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![GTK3](https://img.shields.io/badge/GTK3-7FE5DA?style=for-the-badge&logo=gtk&logoColor=black)
+![Rust](https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### **GPU & Display Acceleration**
@@ -190,19 +202,25 @@ I specialize in pushing mobile hardware to its absolute limit—transforming sto
 <details>
 <summary><b>1. How does ASL achieve true hardware GPU acceleration on Android?</b></summary>
 <br/>
-ASL passes the host Android kernel Adreno GPU device node (<code>/dev/kgsl-3d0</code>) directly into the isolated Debian chroot container. By compiling Mesa Turnip Vulkan drivers inside the ARM64 chroot environment and pairing them with Zink (OpenGL-over-Vulkan), Linux applications achieve direct hardware rendering on mobile SOCs.
+ASL binds the host Android kernel Adreno GPU device node (<code>/dev/kgsl-3d0</code>) and DRM render nodes (<code>/dev/dri/renderD128</code>) directly into the isolated Linux container. By configuring Turnip Mesa Vulkan drivers and pairing them with Zink (OpenGL-over-Vulkan), Linux applications and desktop environments execute with direct native hardware acceleration on mobile SoCs.
 </details>
 
 <details>
-<summary><b>2. Why develop 100% using Autonomous AI Agents?</b></summary>
+<summary><b>2. How does dynamic rootfs provisioning work without prebuilt release archives?</b></summary>
 <br/>
-Autonomous AI coding agents operate as instant force multipliers. By pairing deep domain expertise in ARM64 architecture and Linux kernel hooks with multi-agent orchestration, complex features that previously took weeks can be planned, implemented, tested, and verified in minutes.
+ASL provisions Linux distributions dynamically via <code>proot-distro</code> on the client device during installation. Users can select Debian Trixie, Ubuntu 24.04 LTS, Arch Linux, Kali Linux, Alpine, Fedora, Void, or custom OCI container images. ASL automatically extracts the image, applies Android AID group mappings, initializes DNS nameservers, builds GPU hardware bindings, and configures the desktop environment out-of-the-box.
 </details>
 
 <details>
-<summary><b>3. Is root required for ASL?</b></summary>
+<summary><b>3. Why develop 100% using Autonomous AI Agents?</b></summary>
 <br/>
-Yes. ASL standardizes exclusively on a pure native Linux kernel chroot with Superuser root privileges (Magisk, KernelSU, or APatch) to eliminate user-space emulation overhead, bypass Android process restrictions, and achieve 100% direct GPU hardware node acceleration.
+Autonomous AI coding agents operate as instant force multipliers. By pairing deep domain expertise in ARM64 architecture, Android kernel internals, and Linux subsystems with autonomous multi-agent pipelines, complex systems that previously took weeks can be planned, implemented, tested, and verified in minutes.
+</details>
+
+<details>
+<summary><b>4. Is root required for ASL?</b></summary>
+<br/>
+Yes. ASL standardizes exclusively on a pure native Linux kernel chroot with Superuser root privileges (Magisk, KernelSU, or APatch) to eliminate user-space emulation overhead, bypass Android process limits, and achieve direct GPU hardware node acceleration.
 </details>
 
 ---
