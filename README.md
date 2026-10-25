@@ -150,21 +150,6 @@ A live snapshot from the **ASL Diagnostic Engine** running on bare-metal Android
 
 </details>
 
-<br>
-
-### ⚡ [**Systemless-Host-Termux-SU**](https://github.com/Ruusian/Systemless-Host-Termux-SU)
-
-> *Autonomous Linux kernel bridge for Termux with systemless root integration.*
-
-- Zero-modification kernel mounts for Termux environments.
-- Magisk / KernelSU / APatch compatibility without tripping Android Play Integrity.
-
-### 🕹️ [**html5-games**](https://github.com/Ruusian/html5-games)
-
-> *Mobile game prototyping and performance testing suite on Android Termux.*
-
-- Canvas and WebGL performance benchmarks for mobile browsers under Linux containers.
-
 ---
 
 ## 🛠️ Specialized Technical Arsenal
